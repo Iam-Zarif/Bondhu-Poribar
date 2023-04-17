@@ -6,8 +6,8 @@
 .logo{
   height: 200px;
   width: 200px;
-   top: 130%;
-  left: 10%;
+   top: 100%;
+  left: 20%;
   transform: translate(-50%, -50%);
   margin: 0;
   font-size: 30px;
@@ -143,4 +143,39 @@
 }
 .subscribe{
   background-color: rgb(28, 200, 66);
+}
+
+@media only screen and (max-width: 600px) {
+  .initiatives{
+    width: 100%;
+  }
+  
+.profile{
+  width: 100px;
+  
+}
+#cover-img, #cover-img-1, #cover-img-2{
+  width: 500px;
+  height: 300px;
+}
+#cover-text{
+  font-size: 18px;
+}
+#cover-text-1{
+  font-size: 12px;
+  margin-left: 25px;
+}
+#cover-btn{
+  font-size: 10px;
+  margin-left: 8px;
+}
+}
+@media only screen and (min-width: 824px) {
+  .initiatives{
+    width: 500px;
+    
+  }
+.profile{
+  width: 80px;
+}
 }
