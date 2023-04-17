@@ -159,15 +159,20 @@
   height: 300px;
 }
 #cover-text{
-  font-size: 18px;
+  font-size: 20px;
+  margin-left: 21px;
 }
 #cover-text-1{
-  font-size: 12px;
+  font-size: 15px;
   margin-left: 25px;
 }
 #cover-btn{
-  font-size: 10px;
-  margin-left: 8px;
+  font-size: 20px;
+  margin-left: 18px;
+}
+#know-bar-image{
+  height: 100px;
+  width: 100px;
 }
 }
 @media only screen and (min-width: 824px) {
