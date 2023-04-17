@@ -95,5 +95,52 @@
   color: white;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
-
-
+.cover-img{
+  position: relative;
+}
+.cover-text{
+ position: absolute;
+  top: 32%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  font-size: 55px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.cover-text-1{
+  position: absolute;
+  top: 40%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.cover-svg{
+  position: absolute;
+  top: 67%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.banner-p{
+   top: 67%;
+  left: 24%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(11, 84, 33);
+  
+}
+.subscribe{
+  background-color: rgb(28, 200, 66);
+}
